@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3D43EA24ED75DF002BD2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D43E924ED75DF002BD2AE /* AppDelegate.swift */; };
+		EC3D43EC24ED75DF002BD2AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D43EB24ED75DF002BD2AE /* SceneDelegate.swift */; };
+		EC3D43EE24ED75DF002BD2AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D43ED24ED75DF002BD2AE /* ContentView.swift */; };
+		EC3D43F024ED75E1002BD2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3D43EF24ED75E1002BD2AE /* Assets.xcassets */; };
+		EC3D43F324ED75E1002BD2AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3D43F224ED75E1002BD2AE /* Preview Assets.xcassets */; };
+		EC3D43F624ED75E1002BD2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3D43F424ED75E1002BD2AE /* LaunchScreen.storyboard */; };
+		EC3D43FF24ED7B66002BD2AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D43FE24ED7B66002BD2AE /* NetworkManager.swift */; };
+		EC3D440124ED7F1F002BD2AE /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D440024ED7F1F002BD2AE /* PostData.swift */; };
+		ECBC10EA24F26D3A00084777 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC10E924F26D3A00084777 /* DetailView.swift */; };
+		ECBC10EC24F2A97B00084777 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC10EB24F2A97B00084777 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC3D43E624ED75DF002BD2AE /* Hacker Dalam Berita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker Dalam Berita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3D43E924ED75DF002BD2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3D43EB24ED75DF002BD2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC3D43ED24ED75DF002BD2AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC3D43EF24ED75E1002BD2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3D43F224ED75E1002BD2AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC3D43F524ED75E1002BD2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3D43F724ED75E1002BD2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3D43FE24ED7B66002BD2AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC3D440024ED7F1F002BD2AE /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		ECBC10E924F26D3A00084777 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ECBC10EB24F2A97B00084777 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		ECBC10ED24F2ADCA00084777 /* Hacker Dalam Berita.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hacker Dalam Berita.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3D43E324ED75DF002BD2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3D43DD24ED75DF002BD2AE = {
+			isa = PBXGroup;
+			children = (
+				EC3D43E824ED75DF002BD2AE /* Hacker Dalam Berita */,
+				EC3D43E724ED75DF002BD2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3D43E724ED75DF002BD2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D43E624ED75DF002BD2AE /* Hacker Dalam Berita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3D43E824ED75DF002BD2AE /* Hacker Dalam Berita */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC10ED24F2ADCA00084777 /* Hacker Dalam Berita.entitlements */,
+				EC3D43E924ED75DF002BD2AE /* AppDelegate.swift */,
+				EC3D43EB24ED75DF002BD2AE /* SceneDelegate.swift */,
+				ECBC10E824F26CDD00084777 /* Views */,
+				EC3D43FD24ED7B46002BD2AE /* Model */,
+				EC3D43EF24ED75E1002BD2AE /* Assets.xcassets */,
+				EC3D43F424ED75E1002BD2AE /* LaunchScreen.storyboard */,
+				EC3D43F724ED75E1002BD2AE /* Info.plist */,
+				EC3D43F124ED75E1002BD2AE /* Preview Content */,
+			);
+			path = "Hacker Dalam Berita";
+			sourceTree = "<group>";
+		};
+		EC3D43F124ED75E1002BD2AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D43F224ED75E1002BD2AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC3D43FD24ED7B46002BD2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D43FE24ED7B66002BD2AE /* NetworkManager.swift */,
+				EC3D440024ED7F1F002BD2AE /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECBC10E824F26CDD00084777 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D43ED24ED75DF002BD2AE /* ContentView.swift */,
+				ECBC10E924F26D3A00084777 /* DetailView.swift */,
+				ECBC10EB24F2A97B00084777 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3D43E524ED75DF002BD2AE /* Hacker Dalam Berita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3D43FA24ED75E1002BD2AE /* Build configuration list for PBXNativeTarget "Hacker Dalam Berita" */;
+			buildPhases = (
+				EC3D43E224ED75DF002BD2AE /* Sources */,
+				EC3D43E324ED75DF002BD2AE /* Frameworks */,
+				EC3D43E424ED75DF002BD2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacker Dalam Berita";
+			productName = "Hacker Dalam Berita";
+			productReference = EC3D43E624ED75DF002BD2AE /* Hacker Dalam Berita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3D43DE24ED75DF002BD2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ismail .";
+				TargetAttributes = {
+					EC3D43E524ED75DF002BD2AE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EC3D43E124ED75DF002BD2AE /* Build configuration list for PBXProject "Hacker Dalam Berita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3D43DD24ED75DF002BD2AE;
+			productRefGroup = EC3D43E724ED75DF002BD2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3D43E524ED75DF002BD2AE /* Hacker Dalam Berita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3D43E424ED75DF002BD2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3D43F624ED75E1002BD2AE /* LaunchScreen.storyboard in Resources */,
+				EC3D43F324ED75E1002BD2AE /* Preview Assets.xcassets in Resources */,
+				EC3D43F024ED75E1002BD2AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3D43E224ED75DF002BD2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3D440124ED7F1F002BD2AE /* PostData.swift in Sources */,
+				ECBC10EA24F26D3A00084777 /* DetailView.swift in Sources */,
+				EC3D43FF24ED7B66002BD2AE /* NetworkManager.swift in Sources */,
+				EC3D43EA24ED75DF002BD2AE /* AppDelegate.swift in Sources */,
+				EC3D43EC24ED75DF002BD2AE /* SceneDelegate.swift in Sources */,
+				EC3D43EE24ED75DF002BD2AE /* ContentView.swift in Sources */,
+				ECBC10EC24F2A97B00084777 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC3D43F424ED75E1002BD2AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3D43F524ED75E1002BD2AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3D43F824ED75E1002BD2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3D43F924ED75E1002BD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3D43FB24ED75E1002BD2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hacker Dalam Berita/Hacker Dalam Berita.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker Dalam Berita/Preview Content\"";
+				DEVELOPMENT_TEAM = C8XJKQSAWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker Dalam Berita/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail..Hacker-Dalam-Berita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3D43FC24ED75E1002BD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hacker Dalam Berita/Hacker Dalam Berita.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker Dalam Berita/Preview Content\"";
+				DEVELOPMENT_TEAM = C8XJKQSAWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker Dalam Berita/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail..Hacker-Dalam-Berita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3D43E124ED75DF002BD2AE /* Build configuration list for PBXProject "Hacker Dalam Berita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3D43F824ED75E1002BD2AE /* Debug */,
+				EC3D43F924ED75E1002BD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3D43FA24ED75E1002BD2AE /* Build configuration list for PBXNativeTarget "Hacker Dalam Berita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3D43FB24ED75E1002BD2AE /* Debug */,
+				EC3D43FC24ED75E1002BD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3D43DE24ED75DF002BD2AE /* Project object */;
+}
